@@ -123,7 +123,7 @@ const Categories = () => {
                     });
                   }}
                   id="name"
-                  label="Nama Kategori"
+                  label="Category Name"
                   sx={{ marginTop: 4 }}
                   required={true}
                 />
@@ -151,7 +151,7 @@ const Categories = () => {
                     });
                   }}
                   id="name"
-                  label="Nama Kategori"
+                  label="Category Name"
                   sx={{ marginTop: 4 }}
                   required={true}
                 />
