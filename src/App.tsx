@@ -10,7 +10,6 @@ function App() {
       <Paper
         sx={{
           minHeight: '100vh',
-          backgroundColor: 'background.default',
           borderRadius: 0,
         }}
         color="primary"

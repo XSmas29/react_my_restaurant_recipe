@@ -108,7 +108,7 @@ export default function AppDrawer(props: any) {
 
   return (
     <Box 
-      sx={{ display: 'flex', backgroundColor: 'background.default' }}
+      sx={{ display: 'flex' }}
       onClick={() => (!resolveBreakpoint('md')) && navbar.isOpen ? dispatch(changeOpen(false)) : null}
     >
       <Drawer

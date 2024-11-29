@@ -5,9 +5,10 @@ const theme = createTheme({
     fontFamily: 'monospace', // Set your desired font family here
   },
   palette: {
+    mode: 'dark',
     background: {
-      default: '#181818',
-      paper: '#101010',
+      default: '#323232',
+      paper: '#222222',
     },
     primary: {
       main: '#db7337',
@@ -15,7 +16,11 @@ const theme = createTheme({
       contrastText: '#fff',
     },
     secondary: {
-      main: '#f50057',
+      main: '#303030',
+
+    },
+    text: {
+      primary: '#fff',
     },
   },
 });

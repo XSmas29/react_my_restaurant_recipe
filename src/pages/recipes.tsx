@@ -1,7 +1,7 @@
 import { Typography } from '@mui/material';
 import { motion } from 'framer-motion';
 
-const Home = () => {
+const Recipes = () => {
   return (
     <motion.div
       variants={{
@@ -19,4 +19,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Recipes;
