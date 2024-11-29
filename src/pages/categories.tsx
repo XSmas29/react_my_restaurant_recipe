@@ -89,17 +89,7 @@ const Categories = () => {
   }
 
   return (
-    <motion.div
-      variants={{
-        visible: {
-          transition: {
-            staggerChildren: 0.25,
-          }
-        }
-      }}
-      initial="hidden"
-      animate="visible"
-      >
+    <>
         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
 
           <h1 style={{margin: '0.3em'}}>Categories</h1>
@@ -184,7 +174,7 @@ const Categories = () => {
             <CircularProgress size={80}/>
           </Box>
           :
-          <Paper sx={{ marginTop: 4, }}>
+          <div style={{ minWidth: 0 }}>
             <DataGrid
               rows={categoryList}
               columns={columns}
@@ -192,10 +182,10 @@ const Categories = () => {
               pageSizeOptions={[10, 25, 50]}
               sx={{ border: 1, color: 'text.primary',  backgroundColor: 'background.paper', borderRadius: 0 }}
             />
-          </Paper>
+          </div>
         }
         <Toaster />
-    </motion.div>
+    </>
   );
 };
 
